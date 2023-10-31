@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Letter</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="mobileImgContainer">
+                <img class="mobileImg" src="./assets/images/illustration-sign-up-mobile.svg" alt="mobileImg" />
+            </div>
+
+            <div class="leftContainer">
+                <h1>Stay updated!</h1>
+                <p class="leftP">
+                    Join 60,000+ product managers receiving monthly updates on:
+                </p>
+
+                <div class="checkBoxHero">
+                    <div class="checkBoxText">
+                        <div><img src="./assets/images/icon-success.svg" /></div> <p>Product discovery and building what matters</p>
+                    </div>
+
+                    <div class="checkBoxText">
+                        <div><img src="./assets/images/icon-success.svg" /></div> <p>Measuring to ensure updates are a success</p>
+                    </div>
+
+                    <div class="checkBoxText">
+                        <div><img src="./assets/images/icon-success.svg" /></div> <p>And much more!</p>
+                    </div>
+                </div>
+
+                <div class="leftInputHero">
+                    <div>
+                        <b>Email address</b>
+                        <b class="emailError">Valid email required</b>
+                    </div>
+                    <form name="form" action="success.html" onsubmit="return emailFalse()">
+                        <input type="email" name="email" placeholder="email@company.com" autocomplete="off"/>
+                        <button class="btn" type="submit">Subscrible to monthly newsletter</button>
+                    </form>
+                    <div class="footer">
+                        <a href="#">Developer by Shane Soe Myint</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightContainer">
+                <img src="./assets/images/illustration-sign-up-desktop.svg" class="desktopImg" alt="desktopImg" />
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
